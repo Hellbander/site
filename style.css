@@ -1,0 +1,13 @@
+.menu{
+
+}
+.menu--items{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #ccc;
+}
+.menu--item{
+  display: inline-block;
+  margin: 10px;
+}
