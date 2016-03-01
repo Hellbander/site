@@ -1,6 +1,13 @@
 .menu{
 
 }
+.header{
+  text-align: center;
+  font-family: fantasy;
+}
+.main .head{
+  text-align: center;
+}
 .menu--items{
   margin: 0;
   padding: 0;
@@ -21,4 +28,9 @@
   .main{
     font-size: 24px;
   }
+}
+.footer{
+  text-align: center;
+  background-color: black;
+  color: white;
 }
