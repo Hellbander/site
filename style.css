@@ -11,3 +11,14 @@
   display: inline-block;
   margin: 10px;
 }
+.menu--item .menu--item{
+  display: none;
+}
+.menu--item:hover .menu--item{
+  display: block;
+}
+@media (max-width:640px) and (min-width:480px) {
+  .main{
+    font-size: 24px;
+  }
+}

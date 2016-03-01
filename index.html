@@ -3,6 +3,7 @@
 <head>
    <meta charset="u">
    <title>Site</title>
+   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
    <link rel="stylesheet" href="style.css">
    <script src="script.js"></script>
 </head>
@@ -14,7 +15,13 @@
      <ul class="menu--items">
       <li class="menu--item"><a href="index.html" class="menu--link">Main</a></li>
       <li class="menu--item"><a href="about.html" class="menu--link">About us</a></li>
-      <li class="menu--item"><a href="contact.html" class="menu--link">Contact us</a></li>
+      <li class="menu--item">
+         <a href="contact.html" class="menu--link">Contact us</a>
+         <ul class="menu--items">
+            <li class="menu--item"><a href="about.html" class="menu--link">Item one</a></li>
+            <li class="menu--item"><a href="contact.html" class="menu--link">Item two</a></li>
+         </ul>
+      </li>
     </ul>
    </nav>
    <main class="main">
