@@ -17,7 +17,7 @@
 .menu--item:hover .menu--item{
   display: block;
 }
-@media (max-width:640px) and (min-width:480px) {
+@media (min-width:640px) and (max-width:480px) {
   .main{
     font-size: 24px;
   }
